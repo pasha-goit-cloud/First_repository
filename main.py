@@ -5,7 +5,7 @@
 #print (name)
 #name = input('база даних')
 #print (name)
-dict = {"key": "value"}
+"""dict = {"key": "value"}
 #У цьому словнику перераховано загальну кількість пунктів меню
 menu_dict = {"sandwiches": {
         "price": 6,
@@ -15,4 +15,4 @@ menu_dict = {"sandwiches": {
 #У цьому словнику перераховані елементи облікового запису користувача Instagram
 user_dict = {"name": "Wendy", "active": False, "followers": 2}
 print (menu_dict["sandwiches"]["description"], menu_dict["sandwiches"]["price"])
-print (user_dict["active"]) 
+print (user_dict["active"]) """
