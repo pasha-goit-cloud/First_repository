@@ -16,3 +16,12 @@ menu_dict = {"sandwiches": {
 user_dict = {"name": "Wendy", "active": False, "followers": 2}
 print (menu_dict["sandwiches"]["description"], menu_dict["sandwiches"]["price"])
 print (user_dict["active"]) """
+
+'''
+menu = ["sandwich","soup","salad","wraps"]
+for i in menu:
+    print (i) '''
+
+menu = ["sandwich","soup","salad","wraps"]
+for goingMenu in menu:
+    print (goingMenu)
