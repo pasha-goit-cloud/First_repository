@@ -11,17 +11,27 @@ menu_dict = {"sandwiches": {
         "price": 6,
         "description": "Зі свіжою шинкою та сиром"             
 } ,
- "wraps": 4, "soup": 1}
+ "wraps": 4, "soup": 1}  """
 #У цьому словнику перераховані елементи облікового запису користувача Instagram
-user_dict = {"name": "Wendy", "active": False, "followers": 2}
+"""user_dict = {"name": "Wendy", "active": False, "followers": 2}
 print (menu_dict["sandwiches"]["description"], menu_dict["sandwiches"]["price"])
-print (user_dict["active"]) """
-
-'''
+print (user_dict["active"])
 menu = ["sandwich","soup","salad","wraps"]
 for i in menu:
-    print (i) '''
-
-menu = ["sandwich","soup","salad","wraps"]
-for loop menu:
-    print (i)
+print (i) """
+# Змініть вхідні дані на ціле число
+'''age = int (input('How old are you now' ))
+print('How old will you be next year?')
+print(f"Next year you will be {age + 1}!")
+#print(age + 1)'''
+#*********************************************************
+'''
+item = input('Що ви купуєте ?')
+price = float(input(f'яка ціна за 1кг {item} грн. ?'))
+count = int(input('Скільки штук берете?'))
+total = price*count
+print ('-'*20)
+print (f'Ваше замовлення {item}')
+print (f'Сумма замовлення {total :.2f} грн.')
+'''
+#*********************************************************
