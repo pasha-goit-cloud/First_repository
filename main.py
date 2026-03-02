@@ -23,5 +23,5 @@ for i in menu:
     print (i) '''
 
 menu = ["sandwich","soup","salad","wraps"]
-for goingMenu in menu:
-    print (goingMenu)
+for loop menu:
+    print (i)
